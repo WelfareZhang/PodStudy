@@ -27,6 +27,9 @@
     
     NSLog(@"this is 0.0.6 tag");
     
+    NSLog(@"commit 1");
+    
+    
     
     
     
