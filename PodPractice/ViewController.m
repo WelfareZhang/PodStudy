@@ -25,6 +25,12 @@
     NSLog(@"this is master branch");
     btn.backgroundColor = UIColor.redColor;
     
+    NSLog(@"this is 0.0.6 tag");
+    
+    
+    
+    
+    
 }
 
 
