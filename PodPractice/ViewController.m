@@ -26,11 +26,8 @@
     btn.backgroundColor = UIColor.redColor;
     
     NSLog(@"this is 0.0.6 tag");
-    
     NSLog(@"commit 1");
-    
     NSLog(@"commit 11");
-    
     NSLog(@"commit 12");
 
     
