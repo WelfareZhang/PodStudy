@@ -23,6 +23,7 @@
     NSLog(@"fix confict");
     NSLog(@"this is abc branch");
     NSLog(@"this is master branch");
+    btn.backgroundColor = UIColor.redColor;
     
 }
 
