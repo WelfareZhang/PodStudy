@@ -18,6 +18,11 @@
     [super viewDidLoad];
 
     NSLog(@"this is 0.0.1 branch");
+    
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:btn];
+    btn.backgroundColor = [UIColor redColor];
+    
 
 }
 
