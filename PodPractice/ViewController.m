@@ -10,6 +10,7 @@
 
 @interface ViewController ()
 
+@property (nonatomic,strong) NSObject *obj;
 @end
 
 @implementation ViewController
@@ -23,7 +24,9 @@
     [self.view addSubview:vi];
     vi.backgroundColor = UIColor.orangeColor;
     
-
+    vi.multipleTouchEnabled = YES;
+    
+    
 }
 
 
