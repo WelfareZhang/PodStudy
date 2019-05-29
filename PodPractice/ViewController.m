@@ -24,6 +24,8 @@
     NSLog(@"fix confict");
     NSLog(@"this is abc branch");
     
+    btn.backgroundColor = UIColor.redColor;
+    
     
 }
 
