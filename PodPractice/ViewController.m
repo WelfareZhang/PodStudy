@@ -18,13 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSLog(@"this is master branch");
+    UIButton *btn = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [self.view addSubview:btn];
     
-    UIView *vi = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    [self.view addSubview:vi];
-    vi.backgroundColor = UIColor.orangeColor;
     
-    vi.multipleTouchEnabled = YES;
+    
     
     
 }
