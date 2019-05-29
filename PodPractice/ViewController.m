@@ -18,15 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    NSLog(@"this is master branch");
     
-    UIView *vi = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
-    [self.view addSubview:vi];
-    vi.backgroundColor = UIColor.orangeColor;
-    
-    vi.multipleTouchEnabled = YES;
-    
-    
+    NSLog(@"fix confict");
 }
 
 
